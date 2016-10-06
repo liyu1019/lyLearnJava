@@ -29,6 +29,7 @@ public class Demo2 {
 //		System.out.println("year : "+year);
 ////      isisLeapYear(int year)判定是否为闰年		
 //		System.out.println(d.isLeapYear(2009));
+	
 		GregorianCalendar calendar = new GregorianCalendar(2013,10,05);
 		int year=calendar.get(Calendar.YEAR);
 		int month=calendar.get(Calendar.MONTH);
@@ -36,6 +37,7 @@ public class Demo2 {
 		System.out.println("today"+year);
 		System.out.println("month"+month);
 		System.out.println("today"+today);
+		
 //		Date time = calendar.getTime();
 //		System.out.println(time);
 	}
